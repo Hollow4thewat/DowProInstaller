@@ -69,17 +69,31 @@ Section ;hidden
 
 SectionEnd
 
-Section "A" SecA
+Section "Vanilla Hotkeys" SecA
 
- SetOutPath "$INSTDIR"
+ SetOutPath "$PROGRAMFILES\Steam\steamapps\common\Dawn of War Soulstorm"
  File /r ".\Content\SectionA\*.*"
 
 SectionEnd
 
-Section "B" SecB
+Section "AZERTY Hotkeys" SecB
 
- SetOutPath "$INSTDIR"
+ SetOutPath "$PROGRAMFILES\Steam\steamapps\common\Dawn of War Soulstorm"
  File /r ".\Content\SectionB\*.*"
+
+SectionEnd
+
+Section "Left-Handed Hotkeys" SecC
+
+ SetOutPath "$PROGRAMFILES\Steam\steamapps\common\Dawn of War Soulstorm"
+ File /r ".\Content\SectionC\*.*"
+
+SectionEnd
+
+Section "Stronghold Assaults minimod" SecD
+
+ SetOutPath "$PROGRAMFILES\Steam\steamapps\common\Dawn of War Soulstorm"
+ File /r ".\Content\SectionD\*.*"
 
 SectionEnd
 
